@@ -8,7 +8,7 @@ document.getElementById('apply-btn').addEventListener('click', function(){
     // console.log(couponCode)
 
     // verify
-    if (couponCode == 'anik'){
+    if (couponCode == 'SELL200'){
         const oldDiscount = document.getElementById('discount');
         const oldDiscountnumber = parseInt(oldDiscount.innerText);
         const newDiscountnuber = oldDiscountnumber + 5
